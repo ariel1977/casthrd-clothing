@@ -10,7 +10,6 @@ const config = {
   storageBucket: "casthrd-clothing.appspot.com",
   messagingSenderId: "34183217966",
   appId: "1:34183217966:web:534588c7fd151f05aa30bf",
-  measurementId: "G-MYNXYQTQKD"
 };
 
 firebase.initializeApp(config);
