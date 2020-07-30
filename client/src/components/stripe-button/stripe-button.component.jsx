@@ -29,7 +29,7 @@ const StripeCheckoutButton = ({ price }) => {
   return (
     <StripeCheckout
       label='Pay Now'
-      name='CRWN Clothing Ltd.'
+      name='Casual Thread'
       billingAddress
       shippingAddress
       image='https://image.flaticon.com/icons/png/512/1852/1852515.png'
