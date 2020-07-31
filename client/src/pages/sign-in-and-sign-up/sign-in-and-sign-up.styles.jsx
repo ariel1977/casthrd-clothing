@@ -14,5 +14,12 @@ export const SignInAndSignUpContainer = styled.div`
     > *:first-child {
       margin-bottom: 50px;
     }
+
   }
-`;
+    & > * {
+      @media screen and (max-width: 767px) {
+        width: 100%;
+        padding: 0 20px;
+      }
+    }
+  `;
